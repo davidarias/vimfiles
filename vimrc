@@ -5,6 +5,40 @@ set nocompatible
 "activate pathogen
 call pathogen#infect()
 
+colors brookstream
+
+"guioptions
+" Remove menu bar
+set guioptions-=m
+"
+" " Remove toolbar
+set guioptions-=T
+
+" Remove right scrollbar
+set guioptions-=r
+"
+" " Remove left scrollbar
+set guioptions-=L
+
+set nobackup       "no backup files
+set nowritebackup  "only in case you don't want a backup file while editing
+set noswapfile     "no swap files
+
+"autosave when lost focus
+autocmd BufLeave,FocusLost * wall
+
+" buffer delete don't close window
+map <C-q> :Kwbd<cr>
+
+" <Ctrl-l> redraws the screen and removes any search highlighting.
+nnoremap <silent> <C-l> :nohl<CR><C-l>
+
+" Ctrl-j/k deletes blank line below/above, and Alt-j/k inserts.
+nnoremap <silent><C-j> m`:silent +g/\m^\s*$/d<CR>``:noh<CR>
+nnoremap <silent><C-k> m`:silent -g/\m^\s*$/d<CR>``:noh<CR>
+nnoremap <silent><A-j> :set paste<CR>m`o<Esc>``:set nopaste<CR>
+nnoremap <silent><A-k> :set paste<CR>m`O<Esc>``:set nopaste<CR>
+
 "allow backspacing over everything in insert mode
 set backspace=indent,eol,start
 
