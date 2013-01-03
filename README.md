@@ -4,7 +4,7 @@ Installation
 ============
 
 Clone the repo:
-`git clone git@github.com:davidarias/vimfiles.git~ /.vim`
+`git clone git@github.com:davidarias/vimfiles.git ~/.vim`
 
 Grab the plugin submodules:
 `cd ~/.vim && git submodule init && git submodule update`

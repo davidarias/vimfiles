@@ -20,6 +20,7 @@ set guioptions-=r
 " " Remove left scrollbar
 set guioptions-=L
 
+set nowrap         "no wrap lines
 set nobackup       "no backup files
 set nowritebackup  "only in case you don't want a backup file while editing
 set noswapfile     "no swap files
@@ -57,8 +58,8 @@ set listchars=tab:▷⋅,trail:⋅,nbsp:⋅
 set incsearch   "find the next match as we type the search
 set hlsearch    "hilight searches by default
 
-set wrap        "dont wrap lines
-set linebreak   "wrap lines at convenient points
+"set wrap        "dont wrap lines
+"set linebreak   "wrap lines at convenient points
 
 if v:version >= 703
     "undo settings
