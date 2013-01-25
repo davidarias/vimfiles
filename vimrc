@@ -20,6 +20,8 @@ set guioptions-=r
 " " Remove left scrollbar
 set guioptions-=L
 
+set guifont=Liberation\ Mono\ 10
+
 set nowrap         "no wrap lines
 set nobackup       "no backup files
 set nowritebackup  "only in case you don't want a backup file while editing
