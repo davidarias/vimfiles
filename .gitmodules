@@ -88,3 +88,6 @@
 [submodule "bundle/zencoding-vim"]
 	path = bundle/zencoding-vim
 	url = https://github.com/mattn/zencoding-vim.git
+[submodule "bundle/scala-vim-bundle"]
+	path = bundle/scala-vim-bundle
+	url = https://github.com/akhil/scala-vim-bundle.git
