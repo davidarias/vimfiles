@@ -91,3 +91,6 @@
 [submodule "bundle/scala-vim-bundle"]
 	path = bundle/scala-vim-bundle
 	url = https://github.com/akhil/scala-vim-bundle.git
+[submodule "bundle/vim-jade"]
+	path = bundle/vim-jade
+	url = https://github.com/digitaltoad/vim-jade.git
