@@ -59,6 +59,8 @@ hi Operator 	gui=none 			guifg=#00bfff
 hi Function 	 			        guifg=#1e90ff
 hi String 		gui=None 			guifg=#4682b4
 hi Boolean									guifg=#9bcd9b
+hi Pmenu        guibg=#111111 guifg=#696969
+hi PmenuSel     guibg=#111111 guifg=#ffffff
 
 "hi link Character Constant
 "hi link Number    Constant
