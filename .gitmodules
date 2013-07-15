@@ -97,9 +97,6 @@
 [submodule "bundle/vim-stylus"]
 	path = bundle/vim-stylus
 	url = https://github.com/wavded/vim-stylus.git
-[submodule "YouCompleteMe"]
-	path = YouCompleteMe
-	url = https://github.com/Valloric/YouCompleteMe.git
 [submodule "bundle/YouCompleteMe"]
 	path = bundle/YouCompleteMe
 	url = https://github.com/Valloric/YouCompleteMe.git
