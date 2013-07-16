@@ -28,6 +28,7 @@ hi DiffText									guibg=#080808	guifg=#bb0000
 hi ErrorMsg									guibg=#880000	guifg=#ffffff
 hi Folded									guibg=#000000	guifg=#4682b4
 hi FoldColumn								guifg=#87cefa 	guibg=#000000
+hi SignColumn guibg=#080808
 hi IncSearch								guibg=#000000	guifg=#bbcccc
 hi LineNr										guibg=#050505	guifg=#4682b4
 hi VertSplit 								guifg=#181818 guibg=#181818 gui=italic
@@ -41,6 +42,9 @@ hi StatusLineNC		gui=none	guibg=#181818	guifg=#4682b4
 hi Title																	guifg=#ffffff
 hi Visual					gui=none	guibg=#bbbbbb	guifg=#000000
 hi WarningMsg								guifg=#ffff00
+hi Pmenu        guibg=#111111 guifg=#696969
+hi PmenuSel     guibg=#111111 guifg=#ffffff
+
 
 " syntax highlighting groups ----------------------------------------
 
@@ -59,9 +63,6 @@ hi Operator 	gui=none 			guifg=#00bfff
 hi Function 	 			        guifg=#1e90ff
 hi String 		gui=None 			guifg=#4682b4
 hi Boolean									guifg=#9bcd9b
-hi Pmenu        guibg=#111111 guifg=#696969
-hi PmenuSel     guibg=#111111 guifg=#ffffff
-
 "hi link Character Constant
 "hi link Number    Constant
 "hi link Boolean   Constant
