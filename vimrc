@@ -5,7 +5,7 @@ set nocompatible
 "activate pathogen
 call pathogen#infect()
 
-colors brookstream
+colors wombat
 
 "guioptions
 " Remove menu bar
@@ -20,7 +20,7 @@ set guioptions-=r
 " " Remove left scrollbar
 set guioptions-=L
 
-set guifont=Liberation\ Mono\ 10
+set guifont=Liberation\ Mono\ 9
 
 set nowrap         "no wrap lines
 set nobackup       "no backup files
