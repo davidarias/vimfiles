@@ -5,7 +5,7 @@ set nocompatible
 "activate pathogen
 call pathogen#infect()
 
-colors wombat
+colors Tomorrow-Night
 
 "guioptions
 " Remove menu bar
@@ -20,7 +20,8 @@ set guioptions-=r
 " " Remove left scrollbar
 set guioptions-=L
 
-set guifont=Liberation\ Mono\ 9
+" set guifont=Liberation\ Mono\ 10
+set guifont=Monaco\ 10
 
 set nowrap         "no wrap lines
 set nobackup       "no backup files
@@ -282,6 +283,10 @@ endfunction
 "nerdtree settings
 let g:NERDTreeMouseMode = 2
 let g:NERDTreeWinSize = 40
+
+" let g:ycm_add_preview_to_completeopt = 1
+"
+set completeopt=longest,menuone
 
 "explorer mappings
 nnoremap <f1> :BufExplorer<cr>
