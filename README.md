@@ -16,6 +16,19 @@ Make sure vim finds the vimrc file by either symlinking it:
 or by sourcing it from  your own ~/.vimrc:
 `source ~/.vim/vimrc`
 
+Some plugins need extra install steps:
+
+*YouCompleteMe:*
+
+`cd ~/.vim/bundle/YouCompleteMe`
+`./install.sh`
+
+See readme for install support for c/c++ projects
+
+*tern for vim*
+`cd ~/.vim/bundle/tern_for_vim`
+`npm install`
+
 
 Update Submodules
 =================
