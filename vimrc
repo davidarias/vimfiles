@@ -283,6 +283,7 @@ endfunction
 "nerdtree settings
 let g:NERDTreeMouseMode = 2
 let g:NERDTreeWinSize = 40
+let g:NERDTreeChDirMode = 2
 
 " let g:ycm_add_preview_to_completeopt = 1
 "
