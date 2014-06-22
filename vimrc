@@ -349,29 +349,6 @@ autocmd BufReadPost fugitive://*
   \   nnoremap <buffer> .. :edit %:h<CR> |
   \ endif
 
-""""""""""""""""""""""""""""""""""
-" Use Dmenu to open files awesome!
-""""""""""""""""""""""""""""""""""
-
-" Strip the newline from the end of a string
-function! Chomp(str)
-  return substitute(a:str, '\n$', '', '')
-endfunction
-
-" Find a file and pass it to cmd
-function! DmenuOpen(cmd)
-  " usign git ls-files, but can easily be replaced with find ..
-  let fname = Chomp(system("git ls-files | dmenu -i -nb '#111111' -nf '#cccccc' -sb '#555a9e' -l 20 -p " . a:cmd))
-  if empty(fname)
-    return
-  endif
-  execute a:cmd . " " . fname
-endfunction
-
-" bindings for dmenu
-map <c-t> :call DmenuOpen("tabe")<cr>
-map <c-f> :call DmenuOpen("e")<cr>
-
 
 " bindings for ctrlp
 "
