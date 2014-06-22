@@ -35,6 +35,15 @@ See readme for install support for c/c++ projects
 
 For javascript tags support install https://github.com/faceleg/doctorjs
 
+**vim-powerline**
+
+install the package python-fontforge,
+
+patch the font:
+
+`~/.vim/bundle/powerline-vim/fontpatcher/fontpatcher MyFontFile.ttf`
+`cp MyFontFile-Powerline.otf ~/.fonts`
+
 
 Update Submodules
 =================

@@ -190,3 +190,8 @@ let g:ctrlp_cmd = 'CtrlP'
 
 inoremap <silent> <buffer> <C-S-d> <ESC>:call Toggle_task_status()<CR>i
 noremap <silent> <buffer> <C-S-d> :call Toggle_task_status()<CR>
+
+" powerline
+
+set laststatus=2
+let g:Powerline_symbols = 'fancy'
