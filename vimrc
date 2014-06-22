@@ -354,3 +354,8 @@ autocmd BufReadPost fugitive://*
 "
 let g:ctrlp_map = '<c-p>'
 let g:ctrlp_cmd = 'CtrlP'
+
+" bindigns for vim-task
+
+inoremap <silent> <buffer> <C-S-d> <ESC>:call Toggle_task_status()<CR>i
+noremap <silent> <buffer> <C-S-d> :call Toggle_task_status()<CR>
