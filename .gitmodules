@@ -79,9 +79,6 @@
 [submodule "bundle/MatchTag"]
 	path = bundle/MatchTag
 	url = https://github.com/gregsexton/MatchTag.git
-[submodule "bundle/yankring"]
-	path = bundle/yankring
-	url = https://github.com/vim-scripts/YankRing.vim.git
 [submodule "bundle/scala-vim-bundle"]
 	path = bundle/scala-vim-bundle
 	url = https://github.com/akhil/scala-vim-bundle.git
@@ -100,3 +97,6 @@
 [submodule "bundle/auto-pairs"]
 	path = bundle/auto-pairs
 	url = git://github.com/jiangmiao/auto-pairs.git
+[submodule "bundle/ctrlp.vim"]
+	path = bundle/ctrlp.vim
+	url = https://github.com/kien/ctrlp.vim.git

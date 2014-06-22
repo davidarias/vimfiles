@@ -371,3 +371,9 @@ endfunction
 " bindings for dmenu
 map <c-t> :call DmenuOpen("tabe")<cr>
 map <c-f> :call DmenuOpen("e")<cr>
+
+
+" bindings for ctrlp
+"
+let g:ctrlp_map = '<c-p>'
+let g:ctrlp_cmd = 'CtrlP'
