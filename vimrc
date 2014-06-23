@@ -195,3 +195,7 @@ noremap <silent> <buffer> <C-S-d> :call Toggle_task_status()<CR>
 
 set laststatus=2
 " let g:Powerline_symbols = 'fancy'
+
+
+" don't show syntastic signs
+let g:syntastic_enable_signs = 0
