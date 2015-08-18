@@ -5,7 +5,7 @@ set nocompatible
 "activate pathogen
 call pathogen#infect()
 
-colors Tomorrow-Night
+colors wolfpack
 
 "guioptions
 " Remove menu bar
@@ -21,7 +21,7 @@ set guioptions-=r
 set guioptions-=L
 
 " set guifont=Liberation\ Mono\ 10
-set guifont=Source\ Code\ Pro\ 10
+set guifont=Source\ Code\ Pro\ 11
 
 set nowrap         "no wrap lines
 set nobackup       "no backup files
