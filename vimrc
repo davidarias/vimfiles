@@ -43,6 +43,9 @@ nnoremap <silent><C-k> m`:silent -g/\m^\s*$/d<CR>``:noh<CR>
 nnoremap <silent><A-j> :set paste<CR>m`o<Esc>``:set nopaste<CR>
 nnoremap <silent><A-k> :set paste<CR>m`O<Esc>``:set nopaste<CR>
 
+" copy and paste to sysmtem clipboard
+set clipboard=unnamedplus
+
 "allow backspacing over everything in insert mode
 set backspace=indent,eol,start
 
