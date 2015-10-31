@@ -46,6 +46,9 @@ nnoremap <silent><A-k> :set paste<CR>m`O<Esc>``:set nopaste<CR>
 " copy and paste to sysmtem clipboard
 set clipboard=unnamedplus
 
+" don't overwrite register on paste
+xnoremap p pgvy
+
 "allow backspacing over everything in insert mode
 set backspace=indent,eol,start
 

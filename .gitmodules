@@ -106,3 +106,9 @@
 [submodule "bundle/vim-fireplace"]
 	path = bundle/vim-fireplace
 	url = git://github.com/tpope/vim-fireplace.git
+[submodule "bundle/nim.vim"]
+	path = bundle/nim.vim
+	url = https://github.com/zah/nim.vim.git
+[submodule "bundle/rust.vim"]
+	path = bundle/rust.vim
+	url = https://github.com/rust-lang/rust.vim.git
